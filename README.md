@@ -20,14 +20,14 @@ It combines a C4.5 Decision Tree model and a Flask web interface to make real-ti
 📁 Project Structure
 Online-Food-Ordering-DSS/
 │
-├── app.py                # Flask web application
-├── model_train.py        # ML model training script
-├── dataset.csv           # Sample dataset (replace with real data)
-├── requirements.txt      # Dependencies list
+├── app.py                
+├── model_train.py        
+├── dataset.csv           
+├── requirements.txt      
 ├── templates/
-│   ├── index.html        # Input form
-│   └── result.html       # Output page
-└── static/               # (Optional for CSS or images)
+│   ├── index.html       
+│   └── result.html      
+└── static/               
 
 🚀 Future Enhancements
 * We can detect the future outcomes (eg: will the customer will repurchase or not,we can predict using machine learning model to predict it)
