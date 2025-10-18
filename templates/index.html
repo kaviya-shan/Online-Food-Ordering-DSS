@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Food Ordering DSS</title>
+</head>
+<body style="font-family: Arial; text-align:center; background:#f4f4f4;">
+    <h2>Online Food Ordering Prediction DSS</h2>
+    <form action="/predict" method="post">
+        <label>Ease of Ordering (1-5):</label><br><input type="number" name="Ease_of_Ordering" min="1" max="5" required><br><br>
+        <label>Good Taste (1-5):</label><br><input type="number" name="Good_Taste" min="1" max="5" required><br><br>
+        <label>Time Saving (1-5):</label><br><input type="number" name="Time_Saving" min="1" max="5" required><br><br>
+        <label>Offers (1-5):</label><br><input type="number" name="Offers" min="1" max="5" required><br><br>
+        <label>Age:</label><br><input type="number" name="Age" required><br><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
